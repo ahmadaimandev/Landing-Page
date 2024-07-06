@@ -1,0 +1,7 @@
+link:
+1. Home
+2. About us
+3. Product
+4. Pricing
+5. Contact us
+
