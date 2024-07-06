@@ -1,3 +1,15 @@
 1. Product landing page should have {header} element with corresponding id="header".
 2. Have image in the {header} element with corresponding id="header-img". (A logo would make a good image).
-3.
+3. Within {#header} elementm have a nav element with corresponding id="nav-bar".
+4. At least 3 clickable elements inside the {nav} element.
+5. {nav} element are taken to the corresponding section of the landing page.
+6. Embedde a product video with id="video".
+7. Landing page has {form} with corresponding id="form".
+8. Inside the form, have input field with id="email" where you can enter an email address.
+9. {#email} input field should have placeholder text to let users know what field is this for.
+10. {#email} input field uses HTML5 validation to confirm that the entered text is an email address.
+11. Inside the form, there is a submit {input} with corresponding id="submit".
+12. When click #submit, element email submitted to a static page. URL: https://www.freecodecamp.com/email-submit
+13. The navbar should always be at the top of the viewport.
+14. Landing page should at least one media query.
+15. Landing page should utilize CSS flexbox at least once.
