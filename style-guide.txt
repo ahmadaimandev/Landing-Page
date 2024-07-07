@@ -5,3 +5,16 @@ link:
 4. Pricing
 5. Contact us
 
+
+home/header section:
+1. intro text on the left side column
+2. photo people play guitar on the right side of column
+
+about us section:
+1. About us title in the middle
+2. left side video
+3. company description right side
+4. client list
+
+product section:
+
