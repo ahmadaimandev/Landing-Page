@@ -17,4 +17,14 @@ about us section:
 4. client list
 
 product section:
+3 types of guitar:
+i. Acoustic
+ii. electric
+iii. classical
+
+pricing section:
+3 type of membership
+i. basic
+ii. premium
+iii. vip
 
