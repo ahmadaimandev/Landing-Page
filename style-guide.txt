@@ -26,5 +26,5 @@ pricing section:
 3 type of membership
 i. basic
 ii. premium
-iii. vip
+iii. platinum
 
