@@ -227,3 +227,363 @@ Responsive design
 }
 
 /*Home section style end*/
+
+/*Client carousel style start*/
+/* Client List Section styling */
+.client-list {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.client-title h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Slider styling */
+.slider {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.client-logo {
+    display: flex;
+    animation: slide 20s linear infinite;
+}
+
+.client-logo div {
+    flex: 0 0 150px;
+    margin: 0 10px;
+}
+
+.client-logo img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.client-logo img:hover {
+    transform: scale(1.1);
+}
+
+/* Animation for the slider */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .client-title h2 {
+        font-size: 2em;
+    }
+
+    .client-logo div {
+        flex: 0 0 100px;
+    }
+
+    .client-logo img {
+        width: 100px;
+    }
+}
+
+/*Client carousel style end*/
+
+/*About us section style start*/
+/* About Us Section styling */
+.about-us-content {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-us-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-left-column,
+.about-us-right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-us-title-container {
+    margin-bottom: 20px;
+}
+
+.about-us-title {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.about-us-description-container {
+    margin-bottom: 30px;
+}
+
+.about-us-description {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.about-us-button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.our-team,
+.lets-connect {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.our-team:hover,
+.lets-connect:hover {
+    background-color: #0056b3;
+}
+
+.lets-connect i {
+    margin-left: 5px;
+}
+
+.about-us-video-container {
+    text-align: center;
+}
+
+.about-us-video-container .video-box {
+    display: inline-block;
+}
+
+.about-us-video-container video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-us-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-left-column,
+    .about-us-right-column {
+        padding: 10px;
+    }
+
+    .about-us-title {
+        font-size: 2em;
+    }
+
+    .about-us-description {
+        font-size: 1em;
+    }
+
+    .our-team,
+    .lets-connect {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+
+    .about-us-video-container video {
+        max-width: 300px;
+    }
+}
+
+/* About us Section style end */
+
+/*Product card section style start*/
+/* Product Card Section styling */
+.product-card {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-card-title-container {
+    margin-bottom: 20px;
+}
+
+.product-card-title {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.product-card-description-container {
+    margin-bottom: 30px;
+}
+
+.product-card-description {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.product-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card-list>div {
+    flex: 1;
+    max-width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card-list>div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+    background-color: #ff6600;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.product-card-list h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-card-list img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.product-card-list p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.product-card-list button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card-list button:hover {
+    background-color: #0056b3;
+}
+
+.product-card-list button i {
+    margin-left: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-card-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card-title {
+        font-size: 2em;
+    }
+
+    .product-card-description {
+        font-size: 1em;
+    }
+
+    .product-card-list>div {
+        max-width: 90%;
+    }
+}
+
+/*Product card section style end*/
+
+/*Footer section style start*/
+/* Footer Section styling */
+.footer-content {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-column-left img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.footer-column-middle {
+    flex: 1;
+    margin: 10px 0;
+}
+
+.footer-column-middle p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.footer-column-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-column-right div {
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-column-right div:hover {
+    color: #007BFF;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-column-left,
+    .footer-column-middle,
+    .footer-column-right {
+        margin-bottom: 10px;
+    }
+}
+
+/*Footer section style end*/
