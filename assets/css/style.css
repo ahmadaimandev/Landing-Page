@@ -265,7 +265,8 @@ Responsive design
 .client-logo img {
     max-width: 100%;
     transition: transform 0.3s ease;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
@@ -531,8 +532,120 @@ Responsive design
 
 /*Product card section style end*/
 
+/*Pricing card section style start*/
+/* Pricing Card Section styling */
+.pricing-card {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.pricing-card-title-container {
+    margin-bottom: 20px;
+}
+
+.pricing-card-title {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.pricing-card-description-container {
+    margin-bottom: 30px;
+}
+
+.pricing-card-description {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.pricing-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-card-list>div {
+    flex: 1;
+    max-width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card-list>div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-membership-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-price {
+    font-size: 2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.card-price .small {
+    font-size: 0.5em;
+}
+
+.pricing-card-list p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.pricing-card-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card-list ul li {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-card-list ul li i {
+    color: #007BFF;
+    margin-right: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .pricing-card-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card-title {
+        font-size: 2em;
+    }
+
+    .pricing-card-description {
+        font-size: 1em;
+    }
+
+    .pricing-card-list>div {
+        max-width: 90%;
+    }
+}
+
+/*Pricing card section style end*/
+
 /*Footer section style start*/
-/* Footer Section styling */
 .footer-content {
     background-color: #d1d1d1;
     color: #fff;
