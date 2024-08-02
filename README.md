@@ -34,7 +34,7 @@ You can view the live demo of the Guitarista Landing Page [here](https://guitari
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/guitarista-landing-page.git
+    git clone https://github.com/ahmadaimandev/Landing-Page.git
     ```
 
 2. Navigate to the project directory:
