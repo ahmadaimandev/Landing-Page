@@ -2,6 +2,8 @@
 
 Welcome to the Guitarista Landing Page project! This project showcases a modern, responsive landing page for a guitar shop called Guitarista. The page includes various sections like Home, About Us, Products, Pricing, Clients, and Contact Us.
 
+![Guitarista Landing Page](./preview.png)
+
 ## Table of Contents
 
 - [Demo](#demo)
