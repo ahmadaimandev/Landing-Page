@@ -17,7 +17,7 @@ Welcome to the Guitarista Landing Page project! This project showcases a modern,
 
 ## Demo
 
-You can view the live demo of the Guitarista Landing Page [here](guitarista-landing-page.vercel.app).
+You can view the live demo of the Guitarista Landing Page [here](https://guitarista-landing-page.vercel.app/).
 
 ## Features
 
