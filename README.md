@@ -17,7 +17,7 @@ Welcome to the Guitarista Landing Page project! This project showcases a modern,
 
 ## Demo
 
-You can view the live demo of the Guitarista Landing Page [here](#).
+You can view the live demo of the Guitarista Landing Page [here](guitarista-landing-page.vercel.app).
 
 ## Features
 
@@ -81,7 +81,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to reach out to me at [your-email@example.com](mailto:aimanzulbahari@gmail.com).
 
 ---
 
