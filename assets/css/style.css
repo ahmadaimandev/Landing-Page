@@ -527,6 +527,57 @@ body {
     }
 }
 
+button.acoustic, button.electric, button.classic {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button.acoustic:hover,
+button.electric:hover,
+button.classic:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+button.acoustic i,
+button.electric i,
+button.classic i {
+    margin-left: 10px;
+}
+
+button.acoustic {
+    background-color: #ff7f50;
+}
+
+button.acoustic:hover {
+    background-color: #ff6347;
+}
+
+button.electric {
+    background-color: #1e90ff;
+}
+
+button.electric:hover {
+    background-color: #4682b4;
+}
+
+button.classic {
+    background-color: #32cd32;
+}
+
+button.classic:hover {
+    background-color: #2e8b57;
+}
+
+
 /*Product card section style end*/
 
 /*Pricing card section style start*/
