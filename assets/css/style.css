@@ -580,114 +580,124 @@ button.classic:hover {
 /*Product card section style end*/
 
 /*Pricing card section style start*/
+/* General Section Styling */
 .pricing-card {
-    padding: 50px 20px;
-    background-color: #f5f5f5;
+    padding: 50px 0;
+    background-color: #f9f9f9;
     text-align: center;
-}
-
-.pricing-card-title-container {
-    margin-bottom: 20px;
 }
 
 .pricing-card-title {
     font-size: 2.5em;
+    margin-bottom: 20px;
     color: #333;
-}
-
-.pricing-card-description-container {
-    margin-bottom: 30px;
 }
 
 .pricing-card-description {
     font-size: 1.2em;
     color: #666;
+    margin-bottom: 40px;
 }
 
+/* Pricing Cards Grid */
 .pricing-card-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-.pricing-card-list>div {
-    flex: 1;
-    max-width: 300px;
+/* Individual Card Styling */
+.pricing-card-list .free-card,
+.pricing-card-list .pro-card,
+.pricing-card-list .premium-card,
+.pricing-card-list .enterprise-card {
     background-color: #fff;
-    border: 1px solid #ddd;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 280px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
 }
 
-.pricing-card-list>div:hover {
+.pricing-card-list .free-card:hover,
+.pricing-card-list .pro-card:hover,
+.pricing-card-list .premium-card:hover,
+.pricing-card-list .enterprise-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Card Title and Price */
 .card-membership-title {
-    font-size: 1.5em;
-    color: #333;
+    font-size: 1.8em;
     margin-bottom: 10px;
+    color: #444;
 }
 
 .card-price {
     font-size: 2em;
-    color: #007BFF;
-    margin-bottom: 10px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .card-price .small {
     font-size: 0.5em;
+    vertical-align: top;
 }
 
-.pricing-card-list p {
+/* Features List */
+.features {
     font-size: 1em;
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.pricing-card-list ul {
-    list-style: none;
-    padding: 0;
-}
-
-.pricing-card-list ul li {
-    font-size: 1em;
-    color: #666;
+    color: #777;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.pricing-card-list ul li i {
-    color: #007BFF;
+.features i {
+    color: #4CAF50;
     margin-right: 10px;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    .pricing-card-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .pricing-card-title {
-        font-size: 2em;
-    }
-
-    .pricing-card-description {
-        font-size: 1em;
-    }
-
-    .pricing-card-list>div {
-        max-width: 90%;
-    }
+/* Button Styling */
+.pricing-card-list button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s;
 }
+
+.pricing-card-list button:hover {
+    background-color: #555;
+}
+
+/* Individual Card Colors */
+.free-card .card-membership-title {
+    color: #ff7f50;
+}
+
+.pro-card .card-membership-title {
+    color: #1e90ff;
+}
+
+.premium-card .card-membership-title {
+    color: #32cd32;
+}
+
+.enterprise-card .card-membership-title {
+    color: #ffa500;
+}
+
 
 /*Pricing card section style end*/
 
