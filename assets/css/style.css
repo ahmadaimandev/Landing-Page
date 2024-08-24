@@ -252,12 +252,12 @@ body {
 
 .slide-track {
     display: flex;
+    width: calc(250px * 18); /* width = (slide width + margin) * number of slides */
     animation: scroll 20s linear infinite;
 }
 
 .slide {
-    flex: 0 0 auto;
-    width: 150px;
+    flex: 0 0 230px;
     margin: 0 10px;
 }
 
@@ -265,7 +265,6 @@ body {
     max-width: 100%;
     transition: transform 0.3s ease;
     -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
@@ -278,9 +277,8 @@ body {
     0% {
         transform: translateX(0);
     }
-
     100% {
-        transform: translateX(-50%);
+        transform: translateX(calc(-250px * 9)); /* move left by width of half the slides */
     }
 }
 
@@ -299,6 +297,7 @@ body {
     }
 }
 /* Client carousel style end */
+
 
 /*About us section style start*/
 .about-us-content {
