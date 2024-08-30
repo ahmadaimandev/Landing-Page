@@ -86,3 +86,7 @@ If you have any questions or suggestions, feel free to reach out to me at [aiman
 ---
 
 Thank you for visiting the Guitarista Landing Page project!
+
+## Powered by
+
+[![Vercel](https://img.shields.io/badge/Powered%20by-Vercel-black?logo=vercel&logoColor=white)](https://vercel.com)
