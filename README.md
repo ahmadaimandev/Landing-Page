@@ -89,4 +89,4 @@ Thank you for visiting the Guitarista Landing Page project!
 
 ## Powered by
 
-[![Vercel](https://img.shields.io/badge/Powered%20by-Vercel-black?logo=vercel&logoColor=white)](https://vercel.com)
+[![Vercel](./Powered%20by%20Vercel%20Badge.png)](https://vercel.com)
