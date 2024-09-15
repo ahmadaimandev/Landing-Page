@@ -54,7 +54,9 @@ You can view the live demo of the Guitarista Landing Page [here](https://guitari
 
 - **HTML**: Structure of the web page.
 - **CSS**: Styling of the web page.
+- **ChatGPT**: Guidance during the development process.
 - **Font Awesome**: Icons used throughout the page.
+- **Google Font**: Fonts used throughout the page.
 
 ## Contributing
 
@@ -81,7 +83,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to me at [aimanzulbahari@gmail.com](mailto:aimanzulbahari@gmail.com).
+If you have any questions or suggestions, feel free to reach out to me at [my email](mailto:aimanzulbahari@gmail.com).
 
 ---
 
