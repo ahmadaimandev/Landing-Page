@@ -88,3 +88,10 @@ If you have any questions or suggestions, feel free to reach out to me at [my em
 ---
 
 Thank you for visiting the Guitarista Landing Page project!
+
+## Powered by
+
+<a href="https://vercel.com">
+  <img src="./Powered%20by%20Vercel%20Badge.png" alt="Vercel" width="200" height="auto">
+</a>
+
